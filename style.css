@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+section {
+    padding: 30px 7%;
+    margin: 80px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: #F20575;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin: 1rem 0;
+}
+
+.heading {
+    width: 100%;
+    background: #eee;
+    padding: 3rem;
+    text-align: center;
+    font-size: 3rem;
+    color: #333;
+
+}
+
+.heading span {
+    color: #F20575;
+}
+
+
+
+header {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 7%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+header .logo__image {
+    width: 60px;
+    height: 60px;
+}
+
+header .logo__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 1px solid #F20575
+}
+
+header .navbar a {
+
+    padding: 20px;
+    font-size: 2rem;
+    color: #F20575;
+    outline-offset: 10px;
+
+}
+
+header .navbar a:hover {
+    padding-bottom: .5rem;
+    border-bottom: .1rem solid #F20575;
+    color: #F20575;
+
+}
+
+header .icons a {
+    color: #F20575;
+}
+
+
+
+
+header .icons a i {
+    padding: 0 30px;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+header .icons a i:hover {
+    transform: scale(1.2);
+}
+
+
+.fa-bars {
+    display: none;
+}
+
+/* .main {
+    margin-top: 120px;
+} */
+
+
+.swiper__box {
+    width: 100%;
+    height: 100%vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border: 1px solid #F20575;
+    border-radius: 1rem;
+    overflow: hidden;
+    user-select: none;
+    padding: 2rem;
+}
+
+
+
+.swiper__box .slide__image {
+    width: 40%;
+    height: 50%;
+}
+
+.swiper__box .slide__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 1rem;
+}
+
+.swiper__box .slide__content {
+    width: 40%;
+    height: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper__box .slide__content h1 {
+    font-size: 4rem;
+    color: #F20575;
+    padding: 1rem 0;
+    font-weight: 800
+}
+
+.swiper__box .slide__content P {
+    font-size: 2rem;
+    color: black;
+    font-weight: 600;
+}
+
+.icons__container {
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.icons__container .box {
+    display: flex;
+    align-items: center;
+    flex: 1 1 25rem;
+    border: 1px solid #F20575;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 1rem;
+
+
+}
+
+
+
+.icons__container .box i {
+    font-size: 7rem;
+    color: #F20575;
+    margin-right: 1rem;
+}
+
+.icons__container .box h3 {
+    font-size: 1.5rem;
+    color: #333;
+    padding-bottom: .5rem;
+}
+
+.icons__container .box p {
+    font-size: 1.3rem;
+    color: #555;
+
+}
+
+.footer__section .box__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+}
+
+.footer__section .box__container .box {
+    flex: 1 1 25rem;
+}
+
+.footer__section .box__container .box h3 {
+    color: #333;
+    font-size: 2.5rem;
+    padding: 16px 0;
+}
+
+.footer__section .box__container .box a {
+    display: block;
+    color: #666;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.footer__section .box__container .box img {
+    margin-top: 1rem;
+}
+
+.footer__section .credit {
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    color: #333;
+    border-top: .1rem solid rgba(0, 0, 0, 0.2);
+}
